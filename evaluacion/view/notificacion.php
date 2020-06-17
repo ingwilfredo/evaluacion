@@ -38,6 +38,10 @@ $(function() {
     msg = 'Menú eliminado con éxito';
     toastr.error(msg);
   }
+  
+  setTimeout(function(){
+    $(location).attr('href', 'index.php');
+  }, 5000);
 
 });
 </script>
